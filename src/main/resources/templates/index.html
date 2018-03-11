@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html lang="cs" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="cs" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java 2</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+    <title>Ukol 02</title>
 </head>
 <body>
 
-    <h1>Úvodní stránka</h1>
-    <span th:text="${cislo}">Staticky text</span>
+    <header class="header">
+        <h1>Obrazky a vyroky</h1>
+    </header>
+        <p>
+        <span th:text="${cislo}">Staticky text</span>
+         </p>
+
+    <section class="obsah">
+        <img th:src="${'images/image' + obrazek + '.JPG'}"/>
+
+        <p class="vyrok" th:text="${vyrok}">Vtipny vyrok</p>
+    </section>
+
+    <footer class="footer">
+        <p>2018</p>
+    </footer>
 
 </body>
 </html>

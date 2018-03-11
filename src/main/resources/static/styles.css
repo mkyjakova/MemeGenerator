@@ -1,0 +1,35 @@
+/* Font */
+@font-face {
+    font-family: Arctic;
+    src: url('Arctic.otf')format("opentype");
+}
+
+@font-face {
+    font-family: Anders;
+    src: url('Anders.ttf')format("opentype");
+
+}
+
+/* Moderni box model */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Zakladni nastaveni, typografie ... */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, Arctic, Anders, sans-serif   ;
+    line-height: 2;
+    background: #5c4b51 url('images/700_FO43433279_b689ca39bad93cae8f72b24c479ad7e6.jpg') ;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: forestgreen;
+    font-family: Anders, sans-serif;
+
+}
