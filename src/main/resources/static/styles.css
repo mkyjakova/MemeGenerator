@@ -37,7 +37,6 @@ body {
     width: 25%;
     alignment: center;
     display: inline-block;
-
 }
 
 /*elementy*/
@@ -61,9 +60,9 @@ h1 {
     margin-top: 2.5%;
     width: 95%;
     height: 80%;
-    display: inline-block;
-    
+  
 }
+
 
 
 /*footer*/
