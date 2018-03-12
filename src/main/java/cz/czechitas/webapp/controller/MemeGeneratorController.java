@@ -10,7 +10,7 @@ import org.springframework.web.servlet.*;
 public class MemeGeneratorController{
 
     private static final List<String> vyroky = Arrays.asList(
-            "Be a pineapple: stand tall, wear a crown, and be sweet on the inside",
+            "Be a pineapple: stand tall, wear a crown, and be sweet on the inside.",
             "My fake plants died because I did not pretend to water them.",
             "I am not a vegetarian because I love animals. I'm a vegetarian because I hate plants.",
             "Plant lady is the new cat lady.",

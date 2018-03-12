@@ -33,15 +33,16 @@ body {
     margin:auto;
     padding: 20px;
     background: rgba(255,204,184,0.8);
-    border: 3px solid forestgreen;
+    border: 2px solid forestgreen;
     width: 25%;
     alignment: center;
+    display: inline-block;
 
 }
 
 /*elementy*/
 h1 {
-    font-size: 60px;
+    font-size: 75px;
     text-align: center;
     color: forestgreen;
     font-family: Anders, sans-serif;
@@ -55,17 +56,15 @@ h1 {
 
 .obrazok{
     border-radius: 20px;
-    border: 3px solid forestgreen;
+    border: 2px solid forestgreen;
     margin: inherit;
     margin-top: 2.5%;
     width: 95%;
     height: 80%;
-
-
-
-
-
+    display: inline-block;
+    
 }
+
 
 /*footer*/
 .footer{
@@ -80,6 +79,6 @@ h1 {
     text-align: center;
     color: forestgreen;
     font-size: inherit;
-    background: rgba(255,204,184,0.8);
+    background: rgba(255,204,184,0.4);
  }
 
