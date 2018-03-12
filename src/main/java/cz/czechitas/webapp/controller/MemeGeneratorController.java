@@ -11,9 +11,11 @@ public class MemeGeneratorController{
 
     private static final List<String> vyroky = Arrays.asList(
             "Be a pineapple: stand tall, wear a crown, and be sweet on the inside",
-            "My fake plants died because I did not pretend to water them",
+            "My fake plants died because I did not pretend to water them.",
             "I am not a vegetarian because I love animals. I'm a vegetarian because I hate plants.",
-            "Plant lady is the new cat lady"
+            "Plant lady is the new cat lady.",
+            "Maybe actually plants are farming us, giving us oxygen until we eventually decompose and they can consume us.",
+            "It's amazing how potatoes give us chips, fries and vodka. Get your shit together, every other vegetable."
             
     );
 
@@ -24,7 +26,7 @@ public class MemeGeneratorController{
         drzakNaDataJmenoStranky.addObject("obrazek",1);
 
         Random generatorNahodnychCiselKytky = new Random();
-        int nahodneCisloKytky = generatorNahodnychCiselKytky.nextInt(5)+1;
+        int nahodneCisloKytky = generatorNahodnychCiselKytky.nextInt(8)+1;
         drzakNaDataJmenoStranky.addObject("obrazek", nahodneCisloKytky);
 
 
