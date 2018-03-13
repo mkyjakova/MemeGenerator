@@ -11,20 +11,18 @@
 <body>
 
     <header class="header">
-        <h1>Obrazky a vyroky</h1>
+        <h1>Meme Generator</h1>
     </header>
-        <p>
-        <span th:text="${cislo}">Staticky text</span>
-         </p>
+        
 
-    <section class="obsah vlavo">
+    <section class="obsah">
         
         <img class ="obrazok" th:src="${'images/image' + obrazek1 + '.JPG'}"/>
         <p class="vyrok" th:text="${vyrok1}">Vtipny vyrok</p>
 
     </section>
 
-    <section class="obsah vpravo">
+    <section class="obsah">
 
         <img class ="obrazok" th:src="${'images/image' + obrazek2 + '.JPG'}"/>
         <p class="vyrok" th:text="${vyrok2}">Vtipny vyrok</p>
@@ -32,7 +30,7 @@
     </section>
 
     <footer class="footer">
-        2018
+        ⓒ 2018
     </footer>
 
 </body>
