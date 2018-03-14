@@ -14,20 +14,19 @@
         <h1>Meme Generator</h1>
     </header>
         
-
-    <section class="obsah">
+    <figure class="obsah">
         
         <img class ="obrazok" th:src="${'images/image' + obrazek1 + '.JPG'}"/>
-        <p class="vyrok" th:text="${vyrok1}">Vtipny vyrok</p>
+        <figcaption class="vyrok" th:text="${vyrok1}">Vtipny vyrok</figcaption>
 
-    </section>
+    </figure>
 
-    <section class="obsah">
+    <figure class="obsah">
 
         <img class ="obrazok" th:src="${'images/image' + obrazek2 + '.JPG'}"/>
-        <p class="vyrok" th:text="${vyrok2}">Vtipny vyrok</p>
+        <figcaption class="vyrok" th:text="${vyrok2}">Vtipny vyrok</figcaption>
 
-    </section>
+    </figure>
 
     <footer class="footer">
         ⓒ 2018
